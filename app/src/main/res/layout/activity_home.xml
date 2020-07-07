@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    tools:layout_editor_absoluteY="81dp"
+    android:background="@drawable/gradientbluetogreen"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"/>
+
+
+
+
+    <ImageButton
+            android:id="@+id/sound_btn"
+            android:layout_margin="10dp"
+            android:layout_gravity="right"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/sound_transparant" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <Button
+        android:id="@+id/play_btn_id"
+        android:layout_width="150dp"
+        android:layout_marginTop="400dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:text="@string/newgame_txt"
+        android:background="@drawable/custom_btn_chosen"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/how_btn_id"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/howto_txt"
+        android:background="@drawable/custom_btn_chosen"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+android:layout_marginTop="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/score_btn_id"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="@string/score_txt"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp"
+        android:background="@drawable/custom_btn_chosen"
+        android:textStyle="bold" />
+
+    </LinearLayout>
+
+</RelativeLayout>

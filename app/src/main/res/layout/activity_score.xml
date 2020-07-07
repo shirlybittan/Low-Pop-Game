@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradientbluetogreen"
+    tools:context=".Score"
+    android:orientation="vertical">
+
+
+
+    <Button
+        android:id="@+id/back_button_score"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:text="@string/back_txt"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:background="@drawable/custom_btn_chosen"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listScore"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+
+        ></ListView>
+
+
+        <TextView
+            android:id="@+id/congrats_txt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="20dp"
+            android:text=""
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textSize="25sp" />
+
+    <Button
+
+        android:id="@+id/new_Game_btn_score"
+        android:layout_width="110dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="@string/newgame_txt"
+        android:background="@drawable/custom_btn_chosen"
+        android:textStyle="bold"
+        android:textColor="@android:color/background_dark"
+        android:textSize="15sp" />
+
+    </LinearLayout>
+
+
+    </LinearLayout>

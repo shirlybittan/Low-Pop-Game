@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">LowPop</string>
+    <string name="explanation_title">How to play?</string>
+    <string name="explanation1_txt">Touch the bubbles from the lowest value to the highest.</string>
+    <string name="explanation2">Try not to make a mistake or you\'ll loose 10 points!</string>
+    <string name="explanation3">You have 30 seconds to make the best score.</string>
+    <string name="explanation4">Keep practicing to get sharper !</string>
+    <string name="newgame_txt">New Game</string>
+    <string name="score_txt">Score</string>
+    <string name="howto_txt">How to play</string>
+    <string name="timesup_txt">Time\'s up !</string>
+    <string name="back_txt">Back</string>
+    <string name="best_score_txt">Best Score</string>
+    <string name="secondbest_txt">Second Best</string>
+    <string name="thirdbest_txt">Third Best</string>
+    <string name="lastscore_txt">Last Score</string>
+    <string name="tryagain_txt">Try to beat your best score and get sharper!</string>
+    <string name="easy_txt">Easy</string>
+    <string name="medium_txt">Medium</string>
+    <string name="hard_txt">Hard</string>
+</resources>

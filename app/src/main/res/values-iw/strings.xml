@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LowPop</string>
+    <string name="explanation_title">איך משחקים?</string>
+    <string name="explanation1_txt">תיגע בבועות מהערך הכי נמוך להכי גבוה.</string>
+    <string name="explanation2">תנסה לא לטעות או שתאבד 10 נקודות!</string>
+    <string name="explanation3">יש לך 30 שניות לעשות את הניקוד הכי גבוהה.</string>
+    <string name="explanation4">תתרגל הרבה כדי לתרגל את המוח!</string>
+    <string name="newgame_txt">משחק חדש</string>
+    <string name="score_txt">ניקוד</string>
+    <string name="howto_txt">איך משחקים</string>
+    <string name="timesup_txt">הזמן עבר!</string>
+    <string name="back_txt">חזור</string>
+    <string name="lastscore_txt">ניקוד אחרון</string>
+    <string name="thirdbest_txt">"ניקוד השלישי הכי טוב "</string>
+    <string name="secondbest_txt">"ניקוד השני הכי טוב "</string>
+    <string name="best_score_txt">ניקוד הכי טוב</string>
+    <string name="tryagain_txt">תנסה לנצח את הניקוד הכי טוב שלך ותהיה יותר חד!</string>
+    <string name="easy_txt">קל</string>
+    <string name="medium_txt">בינוני</string>
+    <string name="hard_txt">קשה</string>
+</resources>
